@@ -1,0 +1,30 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: orange;
+  }
+  
+  .nav-link {
+    color: black !important;
+  }
+  
+  .btn-order {
+    background-color: orange;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .btn-order:hover {
+    background-color: darkorange;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  
